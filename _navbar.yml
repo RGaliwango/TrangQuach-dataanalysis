@@ -2,7 +2,7 @@ title: "Data Analysis Exercise Website"
 type: inverse
 left:
   - text: "About the Author"
-    href: ./Author.html
+    href: ./author.html
   - text: "Analyses"
     menu:
       - text: "Continuous Outcome Analysis"
@@ -18,7 +18,7 @@ left:
       - text: "Visualization"
         href: ./Visualization.html
       - text: "TidyTuesday 1"
-        href: ./TidyTuesday_1.html 
+        href: ./Tidytuesday_1.html 
 right:
   - icon: fa-github fa-lg
     href: URL-TO-THIS-REPOSITORY-HERE

@@ -200,6 +200,11 @@ Next, let's create plots for the categorical variables. You can use, for instanc
 
 p2 <- d3 %>% select_if(is.factor) 
 
+p3 <- p2 %>% gather(-season, key="var", value="value")
+
+p3 %>% ggplot(aes(x=season, y=value)) + geom_count() + 
+  facet_wrap( ~var, scales = "free") +theme_bw()
+
 table1(as.formula(paste("~", paste(names(p2)), collapse="+")) ,data=p2)
 
 ```
