@@ -9,6 +9,8 @@ left:
         href: ./Continuous_Outcome_Analysis.html
       - text: "Variable Selection"
         href: ./Variable_Selection.html
+      - text: "Tree Fitting"
+        href: ./Tree_Fitting.html
   - text: "Other Exercises"
     menu:
       - text: "Coding Exercises"
